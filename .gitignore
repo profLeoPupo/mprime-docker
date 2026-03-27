@@ -1,0 +1,6 @@
+data/p*
+data/*.bu*
+data/*.residues
+data/*.log
+data/*.pid
+
