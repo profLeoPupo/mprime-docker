@@ -1,0 +1,9 @@
+services:
+  mprime:
+    image: debian:stable-slim
+    container_name: mprime
+    restart: unless-stopped
+    working_dir: /mprime
+    volumes:
+      - ./data:/mprime
+    command: ["./mprime", "-d"]

@@ -1,6 +1,21 @@
-data/p*
-data/*.bu*
-data/*.residues
-data/*.log
-data/*.pid
+# dados runtime
+data/*
+!data/README.md
 
+# binários locais
+bin/
+
+# logs
+*.log
+*.pid
+
+# resultados do mprime
+p*
+*.bu*
+
+# configs locais
+*.ini
+*.txt
+
+# sistema
+.DS_Store
